@@ -1,0 +1,1 @@
+export default (res, data = {}) => res.status(500).json({ ...data });
